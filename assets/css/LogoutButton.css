@@ -1,0 +1,10 @@
+/*
+ *  Team Red Hot Chili Jellos
+ *  Chris Barbour, Ramona Graham, Josh Lyon, Hillary Wagoner
+ *  File: LogoutButton.css
+ *  Purpose: This file hides the logout button in header.inc.php until it becomes active.
+ */
+
+.hide-tab.button.special{
+    display: none;
+}

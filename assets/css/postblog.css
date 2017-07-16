@@ -1,0 +1,11 @@
+/*
+ *  Team Red Hot Chili Jellos
+ *  Chris Barbour, Ramona Graham, Josh Lyon, Hillary Wagoner
+ *  File: postblog.css
+ *  Purpose: This file formats the blogs in postblog.php.
+ */
+
+input[type="text"],
+input[type="file"] {
+    padding: 0;
+}

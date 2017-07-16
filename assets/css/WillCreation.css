@@ -1,0 +1,8 @@
+input[type="number"]
+{
+    color: black;
+}
+
+.willForm {
+    -webkit-appearance: radio !important;
+}

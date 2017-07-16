@@ -1,0 +1,172 @@
+.modal {
+    background: tan !important;
+}
+
+#will-wizard {
+    font-weight: bold;
+}
+
+#disclosure {
+    background: tan !important;
+    color: black;
+    padding-left: 40px;
+    font-weight: bold;
+
+}
+
+#agree {
+    background-color: beige !important;
+    box-shadow: none;
+    color: black;
+    border: solid #176741;
+}
+
+#tooltips {
+
+    /* Position the tooltip text */
+
+    background: beige;
+    font-size: 125%;
+    font-weight: bold;
+    width: 42%;
+    float: right;
+    min-height: 175px;
+    padding-top: 10%;
+    -webkit-text-fill-color: black;
+
+    border: double;
+    border-color: #176741;
+}
+
+.modal-content {
+    background: tan;
+}
+
+input[type="number"]
+{
+    color: black;
+}
+
+.willForm {
+    -webkit-appearance: radio !important;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: absolute;
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    top: 20px;
+    right: 100px;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    color: black;
+}
+
+
+#wizard-buttons >button, #add-beneficiary, #add-predeceased, #add-child {
+    background-color: beige !important;
+    box-shadow: none;
+    color: black;
+    border: solid #176741;
+}
+
+#will-modal input[type="text"], input[type="email"], input[type="number"], input[type="password"] {
+    background: beige !important;
+    color: black;
+    font-weight: bold;
+    border: solid #176741;
+    width: 100%;
+
+
+}
+#will-modal input[type="text"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus ,
+input[tupe="button"]{
+    background: beige !important;
+    color: black;
+    font-weight: bold;
+    border: solid white;
+
+}
+
+.modal-content label {
+    color: black !important;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: tan;
+    color: black;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.error,#disclosure-error {
+    color:red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Tooltip container */
+
+/* Tooltip text */
+#tooltip {
+    /**!visibility: hidden;*/
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* Tooltip arrow */
+#tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+

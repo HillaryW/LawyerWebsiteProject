@@ -1,0 +1,24 @@
+/*
+ *  Team Red Hot Chili Jellos
+ *  Chris Barbour, Ramona Graham, Josh Lyon, Hillary Wagoner
+ *  File: navbar.css
+ *  Purpose: This file formats the navbar in the header.inc.php.
+ */
+
+.button.special.active {
+    background-color: #A9A9A9;
+    color: black;
+}
+
+.navbar-collapse {
+    text-align:center;
+}
+.navbar-nav {
+    display:inline-block;
+    float:none;
+}
+
+.button.special:hover {
+    background-color: #53e3fb !important;
+    text-decoration: underline;
+}

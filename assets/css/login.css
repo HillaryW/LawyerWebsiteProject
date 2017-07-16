@@ -1,0 +1,50 @@
+/*
+ *  Team Red Hot Chili Jellos
+ *  Chris Barbour, Ramona Graham, Josh Lyon, Hillary Wagoner
+ *  File: login.css
+ *  Purpose: This file formats the input boxes on the login.php form.
+ *
+ */
+
+form .field {
+    display: block !important;
+}
+
+#login {
+    background-color: tan;
+}
+
+#login h1 {
+    color:black;
+}
+
+#login h1::after {
+     background-color: black;
+}
+
+#login input {
+    background-color: beige;
+    color:black;
+    border: solid #176741;
+}
+
+#login input:focus {
+    box-shadow:none;
+    border: solid white;
+    font-weight: bold;
+}
+
+#login button {
+    background-color: beige;
+    color:black;
+    border: solid #176741;
+}
+
+#login-footer {
+    background-color: tan;
+}
+
+.login {
+    background-color: tan;
+}
+

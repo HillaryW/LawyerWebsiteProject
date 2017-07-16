@@ -1,0 +1,16 @@
+/*
+ *  Team Red Hot Chili Jellos
+ *  Chris Barbour, Ramona Graham, Josh Lyon, Hillary Wagoner
+ *  File: form.css
+ *  Purpose: This file formats the input boxes on post.php.
+ */
+
+input[type="text"], input[type="password"], input[type="email"],
+input[type="tel"], input[type="search"], input[type="url"], select, textarea {
+    background: white;
+    color: black;
+}
+
+textarea {
+    resize: none;
+}

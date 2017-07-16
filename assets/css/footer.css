@@ -1,0 +1,25 @@
+a {
+    border-style: none;
+    border-bottom-color: navy;
+}
+
+.hide_login:link {
+    text-decoration: none;
+}
+
+.hide_login:hover {
+    text-decoration: none;
+    background-color: yellow !important;
+}
+
+.hide_login:visited {
+    text-decoration: none;
+}
+
+.inner {
+    background: burlywood !important;
+}
+
+
+
+
